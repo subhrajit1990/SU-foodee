@@ -10,7 +10,7 @@ import NotFoundPage from './NotFoundPage';
 import ProductsList from './ProductsList';
 import ProductPage from './ProductPage';
 export const routes = (
-	<Switch>
+  <Switch>
     <Route exact path="/" component={Food}/>
     <Route path="/Contact" component={Contact}/>
     <Route path="/About" component={About}/>
@@ -20,7 +20,7 @@ export const routes = (
     //<Route name="ProductsList" path="/ProductsList/:productListPath" render={(props) => (<ProductsList {...props}/>)} />
 
     <Route component={NotFoundPage}/>
-    </Switch>
+  </Switch>
 );
 
 

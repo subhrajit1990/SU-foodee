@@ -1,1 +1,39 @@
-Nothing
+Project Title
+
+Foodee
+
+Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
+Prerequisites
+
+Please install the below functionalities/dependancies before running or executing the module
+
+
+> sudo npm install --save babel-cli@6.26.x babel-core@6.26.x babel-preset-es2017@6.24.x babel-preset-react@6.24.x ejs@2.6.x express@4.16.x react@16.4.x react-dom@16.4.x react-router@4.3.x
+
+
+> sudo npm install webpack-command --save-dev
+
+
+> sudo npm install webpack-config-file -g
+
+
+> sudo npm install --save react-router-dom
+
+> sudo npm install --save-dev http-server@0.11.x
+
+> sudo npm install --save-dev babel-plugin-transform-object-rest-spread
+
+> sudo npm install --save babel-preset-stage-2
+
+> sudo npm install -D sass-loader style-loader css-loader
+
+> sudo npm install --save style-loader 
+
+> sudo npm install --save css-loader
+
+> sudo npm install --save node-sass
+
+Make sure that you have update the npm and node version, currently I have npm 6.1.0 and node v10.5.0 .

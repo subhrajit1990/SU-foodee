@@ -1,0 +1,16 @@
+{
+  "menu": [
+    {
+      "id":1,
+      "title": "Veg"
+    },
+    {
+      "id":2,
+      "title": "Non-veg"
+    },
+    {
+      "id":3,
+      "title": "Eggiterian"
+    }
+]
+}

@@ -13,12 +13,9 @@ Please install the below functionalities/dependancies before running or executin
 
 > sudo npm install --save babel-cli@6.26.x babel-core@6.26.x babel-preset-es2017@6.24.x babel-preset-react@6.24.x ejs@2.6.x express@4.16.x react@16.4.x react-dom@16.4.x react-router@4.3.x
 
-
 > sudo npm install webpack-command --save-dev
 
-
 > sudo npm install webpack-config-file -g
-
 
 > sudo npm install --save react-router-dom
 

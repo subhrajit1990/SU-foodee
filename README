@@ -1,12 +1,17 @@
 Project Title
+------------
 
 Foodee
 
+
 Getting Started
+--------------
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
+
 Prerequisites
+---------------
 
 Please install the below functionalities/dependancies before running or executing the module
 
@@ -34,3 +39,12 @@ Please install the below functionalities/dependancies before running or executin
 > sudo npm install --save node-sass
 
 Make sure that you have update the npm and node version, currently I have npm 6.1.0 and node v10.5.0 .
+
+
+
+Run the application
+--------------------
+
+sudo NODE_ENV=development node_modules/.bin/webpack
+
+node_modules/.bin/http-server src/static

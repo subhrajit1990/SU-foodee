@@ -142,7 +142,7 @@ body {
       color: #544F4D;
   }
   footer {
-    position: absolute;
+    position: inherit;
     left: 0;
     bottom: 0;
     right: 0;
@@ -191,5 +191,6 @@ body {
     }
   }
   .routerClass {
+    background-color: #544F4D;
    /* min-height: 340px; */
   }

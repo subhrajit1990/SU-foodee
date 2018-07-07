@@ -40,9 +40,9 @@ export default class ProductsList extends React.Component {
         let productDetails = {
             "PName": products["product-name"],
             "PImage": products["product-image-url"],
-            "pBuyBtn": products["product-cta-text"],
-            "pPrice": products["product-price"],
-            "pCategory": products["header-top-left-text"]
+            "PBuyBtn": products["product-cta-text"],
+            "PPrice": products["product-price"],
+            "PCategory": products["header-top-left-text"]
         };
           return(
             <div className="col-sm-4" key={i}>

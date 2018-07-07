@@ -42,9 +42,9 @@ export default class Food extends React.Component{
 					return(	
 						<div className="col-sm-2" key={i}>
 							<div className="thumbnail">
-							<img src={viewProducts["PImage"]} alt="pListImg" width="40" height="30"/>
-							<p>{viewProducts["PName"]}</p>
-							<p>{viewProducts["PPrice"]}</p>
+								<img src={viewProducts["PImage"]} alt="pListImg" width="40" height="30"/>
+								<p>{viewProducts["PName"]}</p>
+								<p>{viewProducts["PPrice"]}</p>
 							</div>
 						</div>
 					);
@@ -66,10 +66,11 @@ export default class Food extends React.Component{
 		        				</ul>
 		        			</div>
 	        			</HashRouter>
-					 </div>
-					 
-				</div>		
-				{viewRecentDataPaintWithData}	
+					 </div>	 
+				</div>	
+				<div>	
+					{viewRecentDataPaintWithData}	
+				</div>
 			</Fragment>
 		);
 	}

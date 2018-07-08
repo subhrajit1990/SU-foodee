@@ -6,7 +6,7 @@ import About from './About';
 import Home from './Home';
 import Contact from './Contact';
 import Food from './Food';
-import {Route,HashRouter,NavLink} from 'react-router-dom';
+import {Route,HashRouter,NavLink,BrowserRouter} from 'react-router-dom';
 
 export default class Header extends React.Component{
 	render(){

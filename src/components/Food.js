@@ -32,6 +32,13 @@ export default class Food extends React.Component{
       });
 	};
 
+	viewRecentHeader(){
+		if((this.state.recentViews).length > 0){
+			return (<h3>Recently Viewed</h3>);
+		}
+	};
+
+
 	render(){
 		//console.log("Data neewd recent "+JSON.stringify(this.state.recentViews));
 		var viewRecentDataPaintWithData = "";
@@ -68,7 +75,8 @@ export default class Food extends React.Component{
 	        			</HashRouter>
 					 </div>	 
 				</div>	
-				<div>	
+				<div className="container-fluid text-center">
+					{this.viewRecentHeader()}
 					{viewRecentDataPaintWithData}	
 				</div>
 			</Fragment>

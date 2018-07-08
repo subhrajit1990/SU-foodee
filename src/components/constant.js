@@ -6,7 +6,7 @@ import About from './About';
 import Home from './Home';
 import Contact from './Contact';
 import Food from './Food';
-import NotFoundPage from './NotFoundPage';
+import {NotFoundPage, NoDataFoundPage}  from './NotFoundPage';
 import ProductsList from './ProductsList';
 import ProductPage from './ProductPage';
 export const routes = (

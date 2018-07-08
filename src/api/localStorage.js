@@ -14,6 +14,7 @@ export default function viewRecentlyStorage(arrayName, oParams,keyToValidate) {
         if(localData.find(x => x[keyToValidate] === oParams[keyToValidate])){          
           return;
         }
+     
       }
     }
     localData.push(oParams);  

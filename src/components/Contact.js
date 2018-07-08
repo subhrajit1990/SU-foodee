@@ -13,7 +13,7 @@ export default class Contact extends React.Component{
 			  <h2 className="text-center">CONTACT</h2>
 			  <div className="row">
 			    <div className="col-sm-5">
-			      <p>Contact us and we'll get back to you within 24 hours.</p>
+			      <p>Contact infos.</p>
 			      <p><span className="glyphicon"></span> India</p>
 			      <p><span className="glyphicon"></span>0000000000</p>
 			      <p><span className="glyphicon"></span> id@myDomain.com</p>

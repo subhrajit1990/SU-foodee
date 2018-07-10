@@ -6,6 +6,8 @@ import About from './About';
 import Home from './Home';
 import Contact from './Contact';
 import Food from './Food';
+import BlogContainer from './BlogContainer';
+
 import {Route,HashRouter,NavLink,BrowserRouter} from 'react-router-dom';
 
 export default class Header extends React.Component{
@@ -30,6 +32,7 @@ export default class Header extends React.Component{
 	                                 <li><NavLink to="/Home">Home</NavLink></li>
 	                                <li><NavLink to="/About">About Us</NavLink></li>
 	                                <li><NavLink to="/Contact">Contact</NavLink></li>
+	                                <li><NavLink to="/Blog">Blog</NavLink></li>
 	                            </ul>
 	                            
 	                        </div>

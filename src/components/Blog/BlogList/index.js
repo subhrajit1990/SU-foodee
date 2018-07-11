@@ -47,14 +47,14 @@ export default class BlogList extends React.Component{
 
 	render(){
 		return(
-			<div> 
+			<Fragment> 
 			<ul className="myBlogs">
 				{(this.state.blogs).map( (pBlogs,index) => {
 			        return <li key = {pBlogs.id} ><Blog {...pBlogs} /></li>
 			    })}
 			</ul>
 			<a onClick={this.loadMore}> Load More</a>
-			</div> 
+			</Fragment> 
 		);
 	}
 	

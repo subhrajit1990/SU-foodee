@@ -1,6 +1,6 @@
 'use strict';
 
-import React from 'react';
+import React,{Fragment } from 'react';
 import Blog from './blog';
 import requestService from '../../../api/api';
 
@@ -11,8 +11,13 @@ export default class BlogList extends React.Component{
 		super(props);
 
 		this.state = {
-			blogs: []
+			blogs: [],
+			per: 4,
+  			page: 1,
+  			totalPages: null
 		};
+
+		this.loadMore = this.loadMore.bind(this);
 
 	}
 
@@ -22,18 +27,34 @@ export default class BlogList extends React.Component{
 
 
 	fetchBlogs(){
-		requestService(API_URL)
+		const { per, page, blogs } = this.state;
+		// callling the fake url
+		const URL = `https://reqres.in/api/unknown?page=${page}`;
+		fetch(URL)
 		.then(response => response.json())
-		.then(res => this.setState({
-			blogs: res.blogs
-		}));
+		.then(res => {
+			this.setState({
+				blogs: [...blogs , ...res.data]
+			})
+		 });
 	}
 	
-	
+	loadMore(){
+		this.setState(prevState => ({
+				page : prevState.page + 1,
+		}),this.fetchBlogs);
+	}
 
 	render(){
 		return(
-			<div>Lorem Ipsum</div>
+			<div> 
+			<ul className="myBlogs">
+				{(this.state.blogs).map( (pBlogs,index) => {
+			        return <li key = {pBlogs.id} ><Blog {...pBlogs} /></li>
+			    })}
+			</ul>
+			<a onClick={this.loadMore}> Load More</a>
+			</div> 
 		);
 	}
 	

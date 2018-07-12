@@ -7,7 +7,8 @@
       "product-price": 100,
       "header-top-right-text": "Shop All",
       "header-top-left-text": "Men's",
-      "product-cta-text": "Shop Now"
+      "product-cta-text": "Shop Now",
+      "product-details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
     },
     {
       "product-name": "Veg Ball",
@@ -16,7 +17,8 @@
       "product-price": 100,
       "header-top-right-text": "Shop All",
       "header-top-left-text": "Men's",
-      "product-cta-text": "Shop Now"
+      "product-cta-text": "Shop Now",
+      "product-details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
     },
     {
       "product-name": "Mushroom Tikka",
@@ -25,7 +27,9 @@
       "product-price": 100,
       "header-top-right-text": "Shop All",
       "header-top-left-text": "Men's",
-      "product-cta-text": "Shop Now"
+      "product-cta-text": "Shop Now",
+      "product-details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+
     },
     {
       "product-name": "Veg Roll",
@@ -34,7 +38,9 @@
       "product-price": 100,
       "header-top-right-text": "Shop All",
       "header-top-left-text": "Men's",
-      "product-cta-text": "Shop Now"
+      "product-cta-text": "Shop Now",
+            "product-details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+
     }
   ],
   "2": [
@@ -45,7 +51,9 @@
       "product-price": 100,
       "header-top-right-text": "Shop All",
       "header-top-left-text": "Men's",
-      "product-cta-text": "Shop Now"
+      "product-cta-text": "Shop Now",
+            "product-details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+
     },
     {
       "product-name": "Chicken Roll",
@@ -54,7 +62,9 @@
       "product-price": 100,
       "header-top-right-text": "Shop All",
       "header-top-left-text": "Men's",
-      "product-cta-text": "Shop Now"
+      "product-cta-text": "Shop Now",
+            "product-details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+
     },
     {
       "product-name": "Chicken Egg roll",
@@ -63,7 +73,9 @@
       "product-price": 100,
       "header-top-right-text": "Shop All",
       "header-top-left-text": "Men's",
-      "product-cta-text": "Shop Now"
+      "product-cta-text": "Shop Now",
+            "product-details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+
     },
     {
       "product-name": "Chicken Tikka",
@@ -72,16 +84,21 @@
       "product-price": 100,
       "header-top-right-text": "Shop All",
       "header-top-left-text": "Men's",
-      "product-cta-text": "Shop Now"
+      "product-cta-text": "Shop Now",
+            "product-details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+
     },
     {
+
       "product-name": "Chicken Barbeque",
       "product-image-url": "http://placehold.it/600/92c952",
       "product-image-thumbnailUrl": "http://placehold.it/150/92c952",
       "product-price": 100,
       "header-top-right-text": "Shop All",
       "header-top-left-text": "Men's",
-      "product-cta-text": "Shop Now"
+      "product-cta-text": "Shop Now",
+            "product-details": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+
     }
   ]
 }

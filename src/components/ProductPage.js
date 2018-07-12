@@ -28,14 +28,26 @@ export default class ProductPage extends React.Component{
 	render() {
 		const pDetailsPrint = this.state.pDetails;
 		return (
-			<div>
-				<div className="printing">{pDetailsPrint.PName}</div>
-				<img className="printing" src={pDetailsPrint.PImage} alt="pDetailsImg" width="400" height="300" />
-				<div className="printing">{pDetailsPrint.PPrice}</div>
-				<div className="printing">{pDetailsPrint.PCategory}</div>
-				<button className="m">{pDetailsPrint.PBuyBtn}</button>
+
+			<div className="container-fluid bg-grey">
+			  <div className="row">
+			    <div className="col-sm-4">
+			      				<img className="printing" src={pDetailsPrint.PImage} alt="pDetailsImg" width="400" height="300" />
+
+			    </div>
+			    <div className="col-sm-8">
+			      <h2>{pDetailsPrint.PName}</h2><br/>
+			      <h4>{pDetailsPrint.PPrice}</h4><br/>
+			     	<p>{pDetailsPrint.PPrice}</p><br/>
+			     	<button className="m">{pDetailsPrint.PBuyBtn}</button>
+			    </div>
+			  </div>
 			</div>
+
+			
 			 
 		);
 	}
 }
+
+

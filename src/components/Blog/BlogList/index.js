@@ -48,12 +48,19 @@ export default class BlogList extends React.Component{
 	render(){
 		return(
 			<Fragment> 
-			<ul className="myBlogs">
-				{(this.state.blogs).map( (pBlogs,index) => {
-			        return <li key = {pBlogs.id} ><Blog {...pBlogs} /></li>
-			    })}
-			</ul>
-			<a onClick={this.loadMore}> Load More</a>
+
+				<div className="container-fluid">
+				    <div className="w3-container w3-padding">
+				      <h4>Popular Posts</h4>
+				    </div>
+				 	<ul className="col-sm-8">
+				 		{(this.state.blogs).map( (pBlogs,index) => {
+					        return <li className="w3-padding-16" key = {pBlogs.id} ><Blog {...pBlogs} /></li>
+					    })}
+	    			</ul>
+				</div>
+
+				<a onClick={this.loadMore}> Load More</a>
 			</Fragment> 
 		);
 	}

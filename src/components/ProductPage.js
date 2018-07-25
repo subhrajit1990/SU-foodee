@@ -32,14 +32,16 @@ export default class ProductPage extends React.Component{
 			<div className="container-fluid bg-grey">
 			  <div className="row">
 			    <div className="col-sm-4">
-			      				<img className="printing" src={pDetailsPrint.PImage} alt="pDetailsImg" width="400" height="300" />
+			      	<img className="printing" src={pDetailsPrint.PImage} alt="pDetailsImg" width="400" height="300" />
 
 			    </div>
-			    <div className="col-sm-8">
-			      <h2>{pDetailsPrint.PName}</h2><br/>
-			      <h4>{pDetailsPrint.PPrice}</h4><br/>
+			    <div className="col-sm-8 panel-default text-center">
+			    	<div className="panel-heading">
+          				<h1>{pDetailsPrint.PName}</h1>
+        			</div>
+			      	<h3>{pDetailsPrint.PPrice}</h3><br/>
 			     	<p>{pDetailsPrint.PPrice}</p><br/>
-			     	<button className="m">{pDetailsPrint.PBuyBtn}</button>
+			     	<button className="btn btn-lg">{pDetailsPrint.PBuyBtn}</button>
 			    </div>
 			  </div>
 			</div>
